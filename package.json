@@ -1,0 +1,48 @@
+{
+    "name": "@r-belounis/setup",
+    "version": "1.0.0",
+    "description": "Bring setup, installation or production, development mode to your users.",
+    "main": "Catalyst.js",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/@r-belounis"
+    },
+    "scripts": {
+        "start": "node Startup.js",
+        "catalyst": "node Catalyst.js",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "none"
+    },
+    "keywords": [
+        "setup",
+        "installation",
+        "production",
+        "development",
+        "esmodules"
+    ],
+    "author": "Reza Belounis",
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^5.0.0",
+        "check-internet-connected": "^2.0.5",
+        "concurrently": "^7.0.0",
+        "fkill": "^8.0.0",
+        "hotkeys-js": "^3.8.7",
+        "isomorphic-git": "^1.11.1",
+        "kill-port": "^1.6.1",
+        "node-cmd": "^5.0.0",
+        "progress": "^2.0.3",
+        "react-paginate": "^8.1.0",
+        "shell-exec": "^1.0.2",
+        "shx": "^0.3.4",
+        "terminal-kit": "^2.4.0"
+    },
+    "devDependencies": {
+        "jest": "^27.4.7",
+        "node-key-sender": "^1.0.11",
+        "prompt-sync": "^4.2.0",
+        "rewire": "^6.0.0"
+    }
+}
